@@ -1,4 +1,11 @@
 # -*- coding:utf-8 -*-
+"""
+打开百度页面
+弹框中点击‘立即注册’，跳转到立即注册页面，输入用户名和手机号
+返回登录页面，点击登录
+输入用户名和密码，点击登录
+
+"""
 from selenium import webdriver
 import pytest
 from testing2.base import Base
